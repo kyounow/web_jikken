@@ -3,7 +3,9 @@ html,body{
 	padding: 0;
 	color: #000000;
 	text-shadow: 1px 1px 1px #FFF,-1px 1px 1px #FFF,1px -1px 1px #FFF,-1px -1px 1px #FFF;
-	background: url('photo/back.jpg') no-repeat center top fixed;
+	background: url('photo/back.jpg') center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
