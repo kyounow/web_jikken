@@ -25,33 +25,6 @@ div#header{
 	bottom: 0;
 	clear: both;
 }
-.left-box-1{
-	position: static;
-	float: left;
-	width: 50%;
-	height: 400px;
-}
-.right-box-1{
-	float: left;
-	width: 50%;
-	height: 400px;
-}
-.left-box-2{
-	position: static;
-	float: left;
-	width: 33%;
-	height: 400px;
-}
-.center-box{
-	float: left;
-	width: 34%;
-	height: 400px;
-}
-.right-box-2{
-	float: left;
-	width: 33%;
-	height: 400px;
-}
 
 h1{
 	font-size: 23pt;
@@ -72,4 +45,50 @@ p{
 a{
 	font-size: 17pt;
 	color:#000;
+}
+img{
+	max-width:100%; width /***/:auto; /*IE8用ハック*/
+}
+/*@media screen and (min-width:961px) {
+	/*pc用のcssを記述*/
+	.left-box-1{
+		position: static;
+		float: left;
+		width: 50%;
+		height: 400px;
+	}
+	.right-box-1{
+		float: left;
+		width: 50%;
+		height: 400px;
+	}
+	.left-box-2{
+		position: static;
+		float: left;
+		width: 33%;
+		height: 400px;
+	}
+	.center-box{
+		float: left;
+		width: 34%;
+		height: 400px;
+	}
+	.right-box-2{
+		float: left;
+		width: 33%;
+		height: 400px;
+	}
+*/}
+
+@media screen and (max-width:612px) {
+/*スマホ用のcssを記述*/
+	img1{
+		max-width:100%; width /***/:auto;
+	}
+	img2{
+		max-width:100%; width /***/:auto;
+	}
+	img3{
+		max-width:100%; width /***/:auto;
+	}
 }
