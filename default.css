@@ -2,7 +2,7 @@ html,body{
 	margin: 0;
 	padding: 0;
 	color: #000000;
-	text-shadow: 0.5px 0.5px 0.5px #FFF,-0.5px 0.5px 0.5px #FFF,0.5px -0.5px 0.5px #FFF,-0.5px -0.5px 0.5px #FFF;
+	text-shadow: 1px 1px 1px #FFF,-1px 1px 1px #FFF,1px -1px 1px #FFF,-1px -1px 1px #FFF;
 	background: url('photo/back.jpg') no-repeat center top fixed;
 	background-size: cover;
 	height: 100%;
@@ -16,7 +16,7 @@ div#header{
 	height: 75px;
 }
 .return{
-	font-size: 16pt;
+	font-size: 20pt;
 	margin: 10px;
 }
 .footer{
@@ -54,22 +54,22 @@ div#header{
 }
 
 h1{
-	font-size: 20pt;
+	font-size: 23pt;
 }
 h2{
-	font-size: 18pt;
+	font-size: 21pt;
 }
 h3{
-	font-size: 16pt;
+	font-size: 20pt;
 }
 p{
 	margin-left: 3em;
 	margin-right: 3em;
-	font-size: 13pt;
+	font-size: 17pt;
 	text-indent: 1em;
 	line-height: 1.5;
 }
 a{
-	font-size: 13pt;
+	font-size: 17pt;
 	color:#000;
 }
