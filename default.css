@@ -2,7 +2,6 @@ html,body{
 	margin: 0;
 	padding: 0;
 	color: #FFFFFF;
-	background-color: #000000;
 	text-shadow: 0.5px 0.5px 0.5px #000,-0.5px 0.5px 0.5px #FFF,0.5px -0.5px 0.5px #000,-0.5px -0.5px 0.5px #FFF;
 	background: url('photo/back.jpg') no-repeat center top fixed;
 	background-size: cover;
@@ -69,6 +68,7 @@ p{
 	font-size: 13pt;
 	text-indent: 1em;
 	line-height: 1.5;
+	background-color: #000000;
 }
 a{
 	font-size: 13pt;
