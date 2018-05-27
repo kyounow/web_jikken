@@ -1,0 +1,75 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	text-shadow: 0.5px 0.5px 0.5px #000,-0.5px 0.5px 0.5px #FFF,0.5px -0.5px 0.5px #000,-0.5px -0.5px 0.5px #FFF;
+	background: url('photo/back.jpg') no-repeat center top fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+div#header{
+	background-color: #000;
+	background-repeat: no-repeat;
+	padding: 0;
+	height: 75px;
+}
+.return{
+	font-size: 16pt;
+	margin: 10px;
+}
+.footer{
+	margin: 10px;
+	position: relative;
+	bottom: 0;
+	clear: both;
+}
+.left-box-1{
+	position: static;
+	float: left;
+	width: 50%;
+	height: 400px;
+}
+.right-box-1{
+	float: left;
+	width: 50%;
+	height: 400px;
+}
+.left-box-2{
+	position: static;
+	float: left;
+	width: 33%;
+	height: 400px;
+}
+.center-box{
+	float: left;
+	width: 34%;
+	height: 400px;
+}
+.right-box-2{
+	float: left;
+	width: 33%;
+	height: 400px;
+}
+
+h1{
+	font-size: 20pt;
+}
+h2{
+	font-size: 18pt;
+}
+h3{
+	font-size: 16pt;
+}
+p{
+	margin-left: 3em;
+	margin-right: 3em;
+	font-size: 13pt;
+	text-indent: 1em;
+	line-height: 1.5;
+}
+a{
+	font-size: 13pt;
+	color:#FFF;
+}
