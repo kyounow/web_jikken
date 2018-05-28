@@ -1,8 +1,8 @@
 html,body{
 	margin: 0;
 	padding: 0;
-	color: #000000;
-	text-shadow: 1px 1px 1px #FFF,-1px 1px 1px #FFF,1px -1px 1px #FFF,-1px -1px 1px #FFF;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000,-1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000;
 	background: url('photo/back.jpg') center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -46,14 +46,13 @@ p{
 }
 a{
 	font-size: 17pt;
-	color:#000;
+	color:#FFF;
 }
 img{
 	max-width:100%; width /***/:auto;
 	max-height:100%; height /***/:auto;
 }
 @media screen and (min-width:1024px) {
-	/*pcópÇÃcssÇãLèq*/
 	.left-box-1{
 		position: static;
 		float: left;
